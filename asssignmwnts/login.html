@@ -1,0 +1,84 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Form</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<style>
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #814b4b;
+}
+
+.login-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  
+}
+
+label {
+  margin-bottom: 8px;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+
+}
+
+.password-container {
+  position: relative;
+}
+
+.fa-sharp {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  
+}
+</style>
+           
+<body>
+  
+
+  <div class="login-container">
+    <form class="login-form">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password:</label>
+      <div class="password-container">
+        <input type="password" id="password" name="password" required>
+        <i class= "fa-sharp fa-solid fa-eye-low-vision"></i>
+      </div>
+
+      <button type="submit">Login</button>
+    </form>
+    <h1>Maria Murad</h3>
+      <h1>GB1-060</h1>
+  </div>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>
+
